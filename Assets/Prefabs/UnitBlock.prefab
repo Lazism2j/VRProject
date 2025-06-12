@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6899020088021919959}
   - component: {fileID: 440307915375824359}
   m_Layer: 0
-  m_Name: GameObject 1
+  m_Name: UnitBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_StartingSelectFilters: []
   m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 7632678931fb0f34cb3d81b319e6fd15, type: 2}
-  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: 22e717ec897793d479638b6ddf27732e, type: 2}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
