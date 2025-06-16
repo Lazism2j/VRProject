@@ -4,14 +4,27 @@ using UnityEngine;
 
 public class BlockSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject _block;
+    [SerializeField] GameObject _normal;
+    [SerializeField] GameObject _dual;
+    [SerializeField] GameObject _unit;
+    [SerializeField] GameObject _four;
     [SerializeField] Transform _spawnPosition;
     [SerializeField] float _rotateSpeed;
+    private List<GameObject> _blocks = new List<GameObject>();
+
+    private void Awake()
+    {
+        _blocks.Add(_normal);
+        _blocks.Add(_dual);
+        _blocks.Add(_unit);
+        _blocks.Add(_four);
+    }
 
     public void BlockSpawn()
     {
-        _block.transform.position = _spawnPosition.position;
-        Instantiate(_block);
+        int ran = Random.Range(0, _blocks.Count);
+        _blocks[ran].transform.position = _spawnPosition.position;
+        Instantiate(_blocks[ran]);
     }
 
     private void FixedUpdate()
