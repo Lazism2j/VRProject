@@ -6,6 +6,7 @@ public class BlockSpawner : MonoBehaviour
 {
     [SerializeField] GameObject _block;
     [SerializeField] Transform _spawnPosition;
+    [SerializeField] float _rotateSpeed;
 
     public void BlockSpawn()
     {
@@ -13,4 +14,8 @@ public class BlockSpawner : MonoBehaviour
         Instantiate(_block);
     }
 
+    private void FixedUpdate()
+    {
+        this.transform.Rotate(Vector3.up, _rotateSpeed, Space.World);
+    }
 }
