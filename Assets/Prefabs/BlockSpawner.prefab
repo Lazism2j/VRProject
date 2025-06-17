@@ -46,7 +46,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168df70b369ab944b8f6cf2cb2cdc47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _block: {fileID: 9110787187929760119, guid: f1d710b1f085a5447b59324471d95ad7, type: 3}
+  _normalYellow: {fileID: 9110787187929760119, guid: f1d710b1f085a5447b59324471d95ad7, type: 3}
+  _dualYellow: {fileID: 5837063330581193580, guid: 92234137620d3b94f970c3c9c95a43b7, type: 3}
+  _unitYellow: {fileID: 3099887277608896234, guid: c8184feb9fcc3a743b556cde6b491f46, type: 3}
+  _fourYellow: {fileID: 4334323516386562332, guid: 313016c2cf37dfb4db26edc3335bc58a, type: 3}
+  _normalBlue: {fileID: 9110787187929760119, guid: 7e81cc10f7a2c2f4da081b4c436473ad, type: 3}
+  _dualBlue: {fileID: 5837063330581193580, guid: 70d22ec54b1e602458a6148c613d6e1d, type: 3}
+  _unitBlue: {fileID: 3099887277608896234, guid: 68fac6866041fc14892488c2aa85fe04, type: 3}
+  _fourBlue: {fileID: 4334323516386562332, guid: 38970a20dad9d4e418f07ab108f8b7bf, type: 3}
+  _normalRed: {fileID: 9110787187929760119, guid: 7ab4076be0290c54eba8ba3af775036b, type: 3}
+  _dualRed: {fileID: 5837063330581193580, guid: 635f1b0d5dd4aaa4fb7a248fd1579711, type: 3}
+  _unitRed: {fileID: 3099887277608896234, guid: 3e161a0fe4cf4814c90c725f0cee93f5, type: 3}
+  _fourRed: {fileID: 4334323516386562332, guid: 795cf3019dda31c4d8cd47821cf2a82d, type: 3}
+  _normalGreen: {fileID: 9110787187929760119, guid: f130466801b198e4a88fbe65bec86658, type: 3}
+  _dualGreen: {fileID: 5837063330581193580, guid: 39b492913c83b4a45b3a74dee3b3e318, type: 3}
+  _unitGreen: {fileID: 3099887277608896234, guid: 86591363e7b408742b98bc8c1a2eac98, type: 3}
+  _fourGreen: {fileID: 4334323516386562332, guid: 384f6d6620a22714aa25bea09473a134, type: 3}
   _spawnPosition: {fileID: 2792795403246762193}
   _rotateSpeed: 3
 --- !u!1 &8684412968356472099
