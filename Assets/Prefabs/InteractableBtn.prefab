@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1459381280907587512}
   m_Layer: 0
-  m_Name: SpawnBtn
+  m_Name: InteractableBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
