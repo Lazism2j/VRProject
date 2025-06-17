@@ -17,7 +17,7 @@ public class BlockDestroyer : MonoBehaviour
     }
     */
 
-    private void FixedUpdate()
+    private void Awake()
     {
         transform.localScale = Vector3.one * _radius;
     }
